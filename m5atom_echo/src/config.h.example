@@ -1,0 +1,5 @@
+#pragma once
+// このファイルを config.h にコピーして実際の値を設定する
+const char* SSID        = "YOUR_WIFI_SSID";
+const char* PASSWORD    = "YOUR_WIFI_PASSWORD";
+const char* WEBHOOK_URL = "https://example.com/your-webhook-endpoint";

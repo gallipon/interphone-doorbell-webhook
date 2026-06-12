@@ -1,0 +1,20 @@
+# ローカル専用
+CLAUDE.local.md
+archive/
+local_docs/
+.local_docs/
+*.stackdump
+
+# ビルド成果物
+.pio/
+.vscode/
+
+# 秘密情報（config.h.example をコピーして作成する）
+config.h
+
+# 旧 Arduino IDE 版（現行は PlatformIO 版）
+interphone_webhook/
+interphone_webhook_atom_echo/
+
+# 写真の原本（公開用は images/ 配下）
+18*.jpg
