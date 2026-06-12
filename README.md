@@ -4,6 +4,8 @@
 
 インターホン本体は無改造（既設の外部出力端子に配線を追加するだけ）で、原状回復可能。
 
+<img src="images/m5stickc-on-gbm2a.jpg" width="420" alt="GBM-2A に取り付けた M5StickC（稼働中）">
+
 ```
 玄関子機／集合玄関機
         │ 呼出
@@ -44,6 +46,10 @@ HIGH→LOW の立下りエッジを検知条件とし、チャタリング除去
 GBM-2A 側の端子部。左上の TD/TC が代表移報出力:
 
 ![GBM-2A 端子部](images/gbm2a-terminals.jpg)
+
+待機中の M5StickC。LCD に監視状態・バッテリー電圧・WiFi 状態を表示。プルアップ抵抗は本体上部に直付け:
+
+<img src="images/m5stickc-display-closeup.jpg" width="320" alt="待機中の M5StickC 表示">
 
 ## ファームウェア（2バリアント）
 
